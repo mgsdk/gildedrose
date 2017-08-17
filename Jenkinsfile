@@ -1,7 +1,7 @@
 node {
     stage ('Preparation') {
         deleteDir()
-        git url: 'git@github.com:mgsdk/gildedrose.git', credentialsId: 'e4e0b104-f570-4dd1-908c-eeadf3545d6a', branch: 'master'
+        checkout scm
         stash includes: '**', name: 'source'
     }
     def builders = [
