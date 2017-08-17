@@ -1,4 +1,4 @@
-# Welcome
+# Welcome and test
 This readme have three different parts:
 * [The assignemt](#coding-assignment) : if you do not know guilded rose, then read this before starting the programming exercise. If you know it, just skip this.
 * [The setup](#setup) : Installs the tools on you Linux server that you need in order to run the assignment.
